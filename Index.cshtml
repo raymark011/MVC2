@@ -1,0 +1,21 @@
+﻿@{
+    var book = new MVCtest.Models.book()
+    {
+        ID = 1,
+        Title = "Java For Dummies",
+        Description = "Java Basics",
+        Author = "Raymark",
+        Publisher = "Raymark",
+        DatePublished = "03/30/2020",
+        BookFormat = "Book Bind",
+
+    };
+}
+
+<h2>Book ID : @book.ID </h2>
+<h2>Book Title : @book.Title</h2>
+<h2>Book Description: @book.Description</h2>
+<h2>Book Author : @book.Author </h2>
+<h2>Book Publisher : @book.Publisher </h2>
+<h2>Date Published: @book.DatePublished</h2>
+<h2>Book Format : @book.BookFormat</h2>
